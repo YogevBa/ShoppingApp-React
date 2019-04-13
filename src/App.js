@@ -112,7 +112,6 @@ class App extends Component {
             <Home
               products={this.state.products}
               onQuantityChange={this.handleQuantityChange}
-              deductQuantity={this.onDeductProduct}
               inputChange={this.onInputChange}
               addedProducts={this.state.addedProducts}
             />
